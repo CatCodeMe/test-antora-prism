@@ -1,0 +1,3 @@
+* test module
+** xref:pages/start.adoc[use_bundle_highlight]
+** xref:pages/test_prism.adoc[use_prism_x]

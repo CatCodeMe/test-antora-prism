@@ -1,0 +1,18 @@
+= test prism
+:source-highlighter: prism
+
+
+[,diff]
+....
+-   temperDestination(destination)
++   if (destination instanceof Boom) moderateDestination(destination)
+  }
+  rootLoggerHolder.set(undefined, addFailOnExitHooks(logger, failureLevel))
+....
+
+[,java]
+....
+public static void main(){
+    String a = "123";
+}
+....
