@@ -1,5 +1,5 @@
 site:
-  title: 无线技术部文档站
+  title: test
   start_page: test::start.adoc
 content:
   sources:
