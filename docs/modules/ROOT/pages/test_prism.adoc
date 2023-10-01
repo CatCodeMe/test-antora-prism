@@ -2,6 +2,8 @@
 :source-highlighter: prism
 
 
+> it doesn't work, java or diff
+
 [,diff]
 ....
 -   temperDestination(destination)
