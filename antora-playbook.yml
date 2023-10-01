@@ -1,0 +1,24 @@
+site:
+  title: 无线技术部文档站
+  start_page: test::start.adoc
+content:
+  sources:
+    - url: git@github.com:CatCodeMe/test-antora-prism.git
+      branches: main
+      start_path: docs
+      edit_url: false
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
+ui:
+  bundle:
+    url: ./ui/default_ui.zip
+  supplemental_files: ./supplemental-ui
+runtime:
+  fetch: true # 可以指定 --fetch选项，或者配置 true,执行脚本时拉取资源； `npx antora antora-playbook.yml`命令默认不会拉取资源
+  log:
+    failure_level: error
+
